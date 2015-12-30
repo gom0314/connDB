@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edit01"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="DB에 넣을 숫자"
+        android:inputType="numberPassword"/>
+
+    <Button
+        android:id="@+id/btn01"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="확인"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt01"
+        android:singleLine="false"/>
+
+</LinearLayout>
